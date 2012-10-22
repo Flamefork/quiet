@@ -21,7 +21,7 @@
 
 ## Look & Feel
 
-todo
+![](https://raw.github.com/Flamefork/quiet/master/look_feel/ruby.png)
 
 ## Installation
 
@@ -32,6 +32,7 @@ todo
 ## Contribution
 
 Feel free to fork this theme and modify it on your own.
+
 I appreciate pull requests to support other languages, fix inconsistency among current ones, support other editors.
 
 ## Roadmap
