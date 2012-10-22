@@ -8,7 +8,7 @@ settings = YAML.load(File.new('settings.yml'))
 settings['colors'] = settings['colors'].map{|k, v| {k => palette[v]}}.inject({}, &:merge)
 
 def explode(opts)
-  (opts || {}).map { |k, vs| vs.split(' ').map { |v| {v => k} } }.flatten.inject({}, &:merge)
+  (opts || {}).map { |k, vs| (vs || '').split(' ').map { |v| {v => k} } }.flatten.inject({}, &:merge)
 end
 
 options = []
