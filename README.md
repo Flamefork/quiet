@@ -21,7 +21,13 @@
 
 ## Look & Feel
 
-![](https://raw.github.com/Flamefork/quiet/master/look_feel/ruby.png)
+### Ruby
+![Ruby](https://raw.github.com/Flamefork/quiet/master/look_feel/ruby.png)
+
+### HAML
+![HAML](https://raw.github.com/Flamefork/quiet/master/look_feel/haml.png)
+
+And so on: dim boilerplate and comments, focus on significant parts of code.
 
 ## Installation
 
