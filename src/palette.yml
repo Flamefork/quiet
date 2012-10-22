@@ -1,0 +1,7 @@
+background: 'ffffff' # white
+default: '0' # black
+variable: '52b5' # blue
+keyword: '5c5c5c' # dark gray
+comment: 'b8b8b8' # light gray
+string: '8080' # cyan
+error_bg: 'ffcccc' # light red
