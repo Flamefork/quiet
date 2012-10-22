@@ -1,10 +1,8 @@
-# Quiet
-
-"Quiet" is a code highlighting theme
+**Quiet** is a code highlighting theme
 - with soft colors and white background
 - focused on code, not on coloring
 
-**Currently it's for IntelliJ IDEs only.**
+**Currently it's for IntelliJ IDEs only.** And only tested in RubyMine.
 
 ## Supported languages
 - Ruby
@@ -27,7 +25,7 @@
 ### HAML
 ![HAML](https://raw.github.com/Flamefork/quiet/master/look_feel/haml.png)
 
-And so on: dim boilerplate and comments, focus on significant parts of code.
+…and so on: dim boilerplate and comments, focus on significant parts of code.
 
 ## Installation
 
@@ -37,8 +35,7 @@ And so on: dim boilerplate and comments, focus on significant parts of code.
 
 ## Contribution
 
-Feel free to fork this theme and modify it on your own.
-
+Feel free to fork this theme and modify it on your own.  
 I appreciate pull requests to support other languages, fix inconsistency among current ones, support other editors.
 
 ## Roadmap
