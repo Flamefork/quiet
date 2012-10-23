@@ -1,6 +1,6 @@
 background: 'ffffff' # white
 default: '0' # black
-hyperlink: 'ff' # blue
+hyperlink: '77ff' # light blue
 variable: '52b5' # blue
 keyword: '5c5c5c' # dark gray
 comment: 'b8b8b8' # light gray

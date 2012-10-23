@@ -1,20 +1,22 @@
-**Quiet** is a code highlighting theme
+"Quiet" is a code highlighting theme
 - with soft colors and white background
 - focused on code, not on coloring
 
-**Currently it's for IntelliJ IDEs only.** And only tested in RubyMine.
+Currently it's for IntelliJ IDEs only.
 
 ## Supported languages
-- Ruby
 - CoffeeScript
-- JavaScript
-- Erlang
-- Cucumber
-- HTML
-- HAML
 - CSS
+- Erlang
+- Gherkin/Cucumber
+- HAML
+- HTML
+- JavaScript
+- Markdown
+- Ruby
 - SASS/SCSS
 - SQL
+- XML
 - YAML
 
 ## Look & Feel
