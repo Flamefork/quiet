@@ -11,3 +11,4 @@ colors:
   GUTTER_BACKGROUND: background
   LINE_NUMBERS_COLOR: comment
   TEARLINE_COLOR: background
+  CARET_ROW_COLOR: highlight_bg

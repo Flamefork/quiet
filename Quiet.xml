@@ -1,16 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<scheme name="Quiet" version="1" parent_scheme="Default">
+<?xml version="1.0" encoding="utf-8" ?>
+<scheme name="Quiet" parent_scheme="Default" version="1">
   <option name="LINE_SPACING" value="1.1" />
   <option name="EDITOR_FONT_SIZE" value="16" />
   <option name="CONSOLE_FONT_SIZE" value="12" />
   <option name="CONSOLE_LINE_SPACING" value="1.0" />
   <option name="EDITOR_FONT_NAME" value="Menlo" />
   <colors>
-    <option name="ANNOTATIONS_COLOR" value="0" />
-    <option name="ANNOTATIONS_MERGED_COLOR" value="0" />
+    <option name="ANNOTATIONS_COLOR" value="111111" />
+    <option name="ANNOTATIONS_MERGED_COLOR" value="111111" />
     <option name="GUTTER_BACKGROUND" value="ffffff" />
     <option name="LINE_NUMBERS_COLOR" value="b8b8b8" />
     <option name="TEARLINE_COLOR" value="ffffff" />
+    <option name="CARET_ROW_COLOR" value="f0f0f0" />
   </colors>
   <attributes>
     <option name="COFFEESCRIPT.BLOCK_COMMENT">
@@ -1346,7 +1347,7 @@
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" />
-        <option name="BACKGROUND" value="e2e2e2" />
+        <option name="BACKGROUND" value="f0f0f0" />
         <option name="FONT_TYPE" value="0" />
         <option name="EFFECT_COLOR" />
         <option name="EFFECT_TYPE" value="0" />
@@ -1595,7 +1596,7 @@
     </option>
     <option name="RUBY_HEREDOC_ID">
       <value>
-        <option name="FOREGROUND" value="0" />
+        <option name="FOREGROUND" value="111111" />
         <option name="BACKGROUND" />
         <option name="FONT_TYPE" value="0" />
         <option name="EFFECT_COLOR" />
@@ -2073,6 +2074,16 @@
         <option name="ERROR_STRIPE_COLOR" />
       </value>
     </option>
+    <option name="TEXT">
+      <value>
+        <option name="FOREGROUND" value="111111" />
+        <option name="BACKGROUND" value="ffffff" />
+        <option name="FONT_TYPE" value="0" />
+        <option name="EFFECT_COLOR" />
+        <option name="EFFECT_TYPE" value="0" />
+        <option name="ERROR_STRIPE_COLOR" />
+      </value>
+    </option>
     <option name="TODO_DEFAULT_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="77ff" />
@@ -2215,4 +2226,3 @@
     </option>
   </attributes>
 </scheme>
-

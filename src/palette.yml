@@ -1,9 +1,9 @@
 background: 'ffffff' # white
-default: '0' # black
+default: '111111' # black
 hyperlink: '77ff' # light blue
 variable: '52b5' # blue
 keyword: '5c5c5c' # dark gray
 comment: 'b8b8b8' # light gray
 string: '8080' # cyan
 error_bg: 'ffcccc' # light red
-highlight_bg: 'e2e2e2' # very light gray
+highlight_bg: 'f0f0f0' # very light gray
