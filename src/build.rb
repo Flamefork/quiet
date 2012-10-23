@@ -35,7 +35,7 @@ engine = Haml::Engine.new(File.read('template.haml'), {
     autoclose: %w(option),
     attr_wrapper: '"'
 })
-File.open('../Quiet-new.xml', 'w') do |f|
+File.open('../Quiet.xml', 'w') do |f|
   f.write(engine.render(Object.new, {
       settings: settings,
       options: options
