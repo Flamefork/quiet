@@ -8,13 +8,13 @@ Currently it's for IntelliJ IDEs only.
 - CoffeeScript
 - CSS
 - Erlang
-- Gherkin/Cucumber
+- Gherkin (Cucumber)
 - HAML
 - HTML
 - JavaScript
 - Markdown
 - Ruby
-- SASS/SCSS
+- SASS / SCSS
 - SQL
 - XML
 - YAML
@@ -38,9 +38,11 @@ Currently it's for IntelliJ IDEs only.
 ## Contribution
 
 Feel free to fork this theme and modify it on your own.  
-I appreciate pull requests to support other languages, fix inconsistency among current ones, support other editors.
+I appreciate pull requests to support other languages,
+fix inconsistency among current ones, support other applications.
 
 ## Roadmap
 
-- work out some automated way of building the scheme.
-- support more languages
+- tune general coloring
+- add more languages
+- sublime text 2 support
