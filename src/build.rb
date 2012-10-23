@@ -30,6 +30,7 @@ YAML.load(File.new('languages.yml')).each do |prefix, lang|
     }
   end
 end
+options.sort_by!{|o| o[:name]}
 
 engine = Haml::Engine.new(File.read('template.haml'), {
     autoclose: %w(option),
