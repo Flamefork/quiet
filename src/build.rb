@@ -16,7 +16,9 @@ YAML.load(File.new('languages.yml')).each do |prefix, lang|
   foreground = explode(lang['foreground'])
   background = explode(lang['background'])
 
-  lang['keys'].split(' ').each do |key|
+  keys = lang['keys']
+  keys = keys.split(/\s/) if keys.respond_to?(:split)
+  keys.each do |key|
     options << {
         name: "#{prefix}#{key}",
         value: {
