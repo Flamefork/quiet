@@ -41,6 +41,14 @@ GHERKIN_:
     keyword: KEYWORD TAG PYSTRING
     comment: COMMENT 
 
+go.:
+  keys: block.comment brackets const global.variable identifier keyword line.comment number operators string type.name variable
+  foreground:
+    variable: global.variable variable
+    keyword: brackets keyword
+    comment: block.comment line.comment
+    string: string
+
 HAML_:
   keys: CLASS COMMENT FILTER FILTER_CONTENT ID LINE_CONTINUATION RUBY_CODE RUBY_START STRING STRING_INTERPOLATED TAG TAG_NAME XHTML
   foreground:
@@ -109,6 +117,7 @@ SCOPE_KEY_:
     - Default
     - Non-Project Files
     - Problems
+    - Production
     - Project Files
     - Tests
   

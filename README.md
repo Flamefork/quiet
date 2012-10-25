@@ -9,6 +9,7 @@ Currently it's for IntelliJ IDEs only.
 - CSS
 - Erlang
 - Gherkin (Cucumber)
+- Go
 - HAML
 - HTML
 - JavaScript
