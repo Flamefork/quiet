@@ -8,7 +8,7 @@ top:
 colors:
   ANNOTATIONS_COLOR: default
   ANNOTATIONS_MERGED_COLOR: default
+  CARET_ROW_COLOR: highlight_bg
   GUTTER_BACKGROUND: background
   LINE_NUMBERS_COLOR: comment
   TEARLINE_COLOR: background
-  CARET_ROW_COLOR: highlight_bg
