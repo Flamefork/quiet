@@ -24,8 +24,24 @@ CUSTOM_:
   background:
     error_bg: INVALID_STRING_ESCAPE_ATTRIBUTES
 
+"Clojure ":
+  keys: Atom Braces Character Keyword Literal Numbers Parentheses Strings
+  foreground:
+    keyword: Braces Parentheses
+    string: Strings
+
+"Clojure Line ":
+  keys: comment
+  foreground:
+    comment: comment
+
+"First symbol in ":
+  keys: list
+  foreground:
+    variable: list
+    
 ERL_:
-  keys: BOLD BRACES BRACKETS COMMENT ILLEGAL KEYWORD NUMBER PARENTHS STRING VARIABLES
+  keys: BOLD BRACES BRACKETS COMMENT ILLEGAL KEYWORD NUMBER PARENTHS STRING VARIABLES RECORDS
   foreground:
     variable: VARIABLES
     keyword: BRACES BRACKETS KEYWORD PARENTHS
@@ -83,7 +99,6 @@ MARKDOWN.HEADER_LEVEL_:
   keys: 1 2 3 4 5 6
   foreground:
     variable: 1 2 3 4 5 6
-  
 
 RDOC_:
   keys: DIRECTIVE EMAIL HEADINGS IDENTIFIER KEYWORD URL
