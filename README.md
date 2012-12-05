@@ -7,6 +7,7 @@ Currently it's for IntelliJ IDEs only.
 ## Supported languages
 - CoffeeScript
 - CSS
+- Clojure
 - Erlang
 - Gherkin (Cucumber)
 - Go
