@@ -7,3 +7,4 @@ comment: 'b8b8b8' # light gray
 string: '8080' # cyan
 error_bg: 'ffcccc' # light red
 highlight_bg: 'f0f0f0' # very light gray
+darkhighlight_bg: 'b8b8b8' # light gray
