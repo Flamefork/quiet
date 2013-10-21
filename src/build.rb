@@ -23,26 +23,22 @@ YAML.load(File.new('languages.yml')).each do |prefix, lang|
   keys = lang['keys']
   keys = keys.split(/\s/) if keys.respond_to?(:split)
   keys.each do |key|
+    value = {}
+    value['FOREGROUND'] = palette[foreground[key]] if palette[foreground[key]]
+    value['BACKGROUND'] = palette[background[key]] if palette[background[key]]
     options << {
         name: "#{prefix}#{key}",
-        value: {
-            'FOREGROUND' => palette[foreground[key]],
-            'BACKGROUND' => palette[background[key]],
-            'FONT_TYPE' => 0,
-            'EFFECT_COLOR' => nil,
-            'EFFECT_TYPE' => 0,
-            'ERROR_STRIPE_COLOR' => nil
-        }
+        value: value
     }
   end
 end
 options.sort_by!{|o| o[:name]}
 
 engine = Haml::Engine.new(File.read('template.haml'), {
-    autoclose: %w(option),
+    autoclose: %w(option value),
     attr_wrapper: '"'
 })
-File.open('../Quiet.xml', 'w') do |f|
+File.open('../Quiet.icls', 'w') do |f|
   f.write(engine.render(Object.new, {
       settings: settings,
       options: options

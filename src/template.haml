@@ -2,6 +2,9 @@
 %scheme{name: 'Quiet', version: 1, parent_scheme: 'Default'}
   - settings['top'].each do |k, v|
     %option{name: k, value: v}
+  %font
+    - settings['font'].each do |k, v|
+      %option{name: k, value: v}
   %colors
     - settings['colors'].each do |k, v|
       %option{name: k, value: v}

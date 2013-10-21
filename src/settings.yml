@@ -1,9 +1,12 @@
 top:
   LINE_SPACING: 1.1
-  EDITOR_FONT_SIZE: 16
   CONSOLE_FONT_SIZE: 12
   CONSOLE_LINE_SPACING: 1.0
-  EDITOR_FONT_NAME: Menlo
+  CONSOLE_FONT_NAME: Inconsolata-dz
+
+font:
+  EDITOR_FONT_NAME: Inconsolata-dz
+  EDITOR_FONT_SIZE: 14
   
 colors:
   ANNOTATIONS_COLOR: default

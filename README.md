@@ -17,6 +17,7 @@ Currently it's for IntelliJ IDEs only.
 - Markdown
 - Ruby
 - SASS / SCSS
+- Scala
 - SQL
 - XML
 - YAML
@@ -33,7 +34,7 @@ Currently it's for IntelliJ IDEs only.
 
 ## Installation
 
-1. Download `Quiet.xml`
+1. Download `Quiet.icls`
 2. Put it in `~/Library/Preferences/<your jetbrains product>/colors` directory.
 3. Choose it in `Preferences -> IDE Settings -> Editor -> Colors & Fonts`
 
