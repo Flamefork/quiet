@@ -9,6 +9,7 @@
 		"editor.foreground": "#111111",
 		"editor.lineHighlightBackground": "#f0f0f0",
 		"editor.selectionBackground": "#bfdbfe",
+		"editor.selectionHighlightBackground": "#bfdbfe66",
 		"editorCursor.foreground": "#000000",
 		"editorHoverWidget.background": "#ffffff",
 		"editorHoverWidget.border": "#f0f0f0",
