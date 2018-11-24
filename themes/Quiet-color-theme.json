@@ -2,32 +2,32 @@
 	"name": "Quiet",
 	"type": "light",
 	"colors": {
-		"activityBar.background": "#F0F0F0",
-		"activityBar.foreground": "#0052B5",
-		"activityBarBadge.background": "#0052B5",
-		"editor.background": "#FFFFFF",
+		"activityBar.background": "#f0f0f0",
+		"activityBar.foreground": "#0052b5",
+		"activityBarBadge.background": "#0052b5",
+		"editor.background": "#ffffff",
 		"editor.foreground": "#111111",
-		"editor.lineHighlightBackground": "#F0F0F0",
-		"editor.selectionBackground": "#BFDBFE",
+		"editor.lineHighlightBackground": "#f0f0f0",
+		"editor.selectionBackground": "#bfdbfe",
 		"editorCursor.foreground": "#000000",
 		"editorHoverWidget.background": "#ffffff",
 		"editorHoverWidget.border": "#f0f0f0",
-		"editorIndentGuide.activeBackground": "#F0F0F0",
-		"editorIndentGuide.background": "#F0F0F0",
-		"editorLineNumber.activeForeground": "#B8B8B8",
-		"editorLineNumber.foreground": "#E0E0E0",
-		"editorRuler.foreground": "#F0F0F0",
+		"editorIndentGuide.activeBackground": "#f0f0f0",
+		"editorIndentGuide.background": "#f0f0f0",
+		"editorLineNumber.activeForeground": "#b8b8b8",
+		"editorLineNumber.foreground": "#e0e0e0",
+		"editorRuler.foreground": "#f0f0f0",
 		"editorSuggestWidget.background": "#ffffff",
 		"editorSuggestWidget.border": "#f0f0f0",
 		"focusBorder": "#f0f0f0",
-		"gitDecoration.modifiedResourceForeground": "#0052B5",
+		"gitDecoration.modifiedResourceForeground": "#0052b5",
 		"panel.border": "#f0f0f0",
-		"sideBar.background": "#FFFFFF",
-		"sideBar.border": "#F0F0F0",
-		"sideBarSectionHeader.background": "#FFFFFF",
+		"sideBar.background": "#ffffff",
+		"sideBar.border": "#f0f0f0",
+		"sideBarSectionHeader.background": "#ffffff",
 		"sideBarSectionHeader.border": "#f0f0f0",
-		"statusBar.background": "#F0F0F0",
-		"statusBar.foreground": "#111111",
+		"statusBar.background": "#f0f0f0",
+		"statusBar.foreground": "#666666",
 	},
 	"tokenColors": [
 		{
@@ -37,7 +37,7 @@
 				"punctuation.definition.comment"
 			],
 			"settings": {
-				"foreground": "#B8B8B8"
+				"foreground": "#b8b8b8"
 			}
 		},
 		{
@@ -47,7 +47,7 @@
 				"storage"
 			],
 			"settings": {
-				"foreground": "#5C5C5C"
+				"foreground": "#5c5c5c"
 			}
 		},
 		{
@@ -58,7 +58,7 @@
 				"variable.language"
 			],
 			"settings": {
-				"foreground": "#5C5C5C"
+				"foreground": "#5c5c5c"
 			}
 		},
 		{
@@ -70,7 +70,7 @@
 				"support.type.property-name"
 			],
 			"settings": {
-				"foreground": "#0052B5"
+				"foreground": "#0052b5"
 			}
 		},
 		{
@@ -122,7 +122,7 @@
 				"markup.fenced_code"
 			],
 			"settings": {
-				"foreground": "#B8B8B8"
+				"foreground": "#b8b8b8"
 			}
 		},
 		{
