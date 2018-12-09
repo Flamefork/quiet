@@ -15,7 +15,7 @@
 		"editorHoverWidget.border": "#f0f0f0",
 		"editorIndentGuide.activeBackground": "#f0f0f0",
 		"editorIndentGuide.background": "#f0f0f0",
-		"editorLineNumber.activeForeground": "#b8b8b8",
+		"editorLineNumber.activeForeground": "#b0b0b0",
 		"editorLineNumber.foreground": "#e0e0e0",
 		"editorRuler.foreground": "#f0f0f0",
 		"editorSuggestWidget.background": "#ffffff",
@@ -29,6 +29,10 @@
 		"sideBarSectionHeader.border": "#f0f0f0",
 		"statusBar.background": "#f0f0f0",
 		"statusBar.foreground": "#666666",
+        "editor.findMatchBackground": "#bfdbfe",
+        "editor.findMatchHighlightBackground": "#bfdbfe",
+        "editorOverviewRuler.findMatchForeground": "#bfdbfe",
+        "peekView.border": "#f0f0f0",
 	},
 	"tokenColors": [
 		{
@@ -38,28 +42,16 @@
 				"punctuation.definition.comment"
 			],
 			"settings": {
-				"foreground": "#b8b8b8"
+				"foreground": "#b0b0b0"
 			}
 		},
 		{
-			"name": "Keywords",
+			"name": "Punctuation",
 			"scope": [
-				"keyword",
-				"storage"
+				"punctuation",
 			],
 			"settings": {
-				"foreground": "#5c5c5c"
-			}
-		},
-		{
-			"name": "Language Constants",
-			"scope": [
-				"constant.language",
-				"support.constant",
-				"variable.language"
-			],
-			"settings": {
-				"foreground": "#5c5c5c"
+				"foreground": "#b0b0b0"
 			}
 		},
 		{
@@ -76,21 +68,10 @@
 		},
 		{
 			"name": "Strings",
-			"scope": "string",
-			"settings": {
-				"foreground": "#008080"
-			}
-		},
-		{
-			"name": "Strings: Escape Sequences",
-			"scope": "constant.character.escape",
-			"settings": {
-				"foreground": "#777777"
-			}
-		},
-		{
-			"name": "Strings: Symbols",
-			"scope": "constant.other.symbol",
+			"scope": [
+				"string",
+				"constant.other.symbol",
+			],
 			"settings": {
 				"foreground": "#008080"
 			}
@@ -123,7 +104,7 @@
 				"markup.fenced_code"
 			],
 			"settings": {
-				"foreground": "#b8b8b8"
+				"foreground": "#b0b0b0"
 			}
 		},
 		{
