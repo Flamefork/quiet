@@ -10,17 +10,17 @@
 		"editor.lineHighlightBackground": "#f0f0f0",
 		"editor.selectionBackground": "#bfdbfe",
 		"editor.selectionHighlightBackground": "#bfdbfe66",
-		"editorCursor.foreground": "#000000",
-		"editorHoverWidget.background": "#ffffff",
+		"editorCursor.foreground": "#111111",
+		"editorHoverWidget.background": "#f0f0f0",
 		"editorHoverWidget.border": "#f0f0f0",
 		"editorIndentGuide.activeBackground": "#f0f0f0",
 		"editorIndentGuide.background": "#f0f0f0",
 		"editorLineNumber.activeForeground": "#b0b0b0",
 		"editorLineNumber.foreground": "#e0e0e0",
 		"editorRuler.foreground": "#f0f0f0",
-		"editorSuggestWidget.background": "#ffffff",
+		"editorSuggestWidget.background": "#f0f0f0",
 		"editorSuggestWidget.border": "#f0f0f0",
-		"focusBorder": "#f0f0f0",
+		"focusBorder": "#bfdbfe",
 		"gitDecoration.modifiedResourceForeground": "#0052b5",
 		"panel.border": "#f0f0f0",
 		"sideBar.background": "#ffffff",
@@ -33,6 +33,8 @@
         "editor.findMatchHighlightBackground": "#bfdbfe",
         "editorOverviewRuler.findMatchForeground": "#bfdbfe",
         "peekView.border": "#f0f0f0",
+		"list.activeSelectionForeground": "#111111",
+		"list.activeSelectionBackground": "#bfdbfe",
 	},
 	"tokenColors": [
 		{
@@ -63,7 +65,7 @@
 				"support.type.property-name"
 			],
 			"settings": {
-				"foreground": "#0052b5"
+				"foreground": "#111111"
 			}
 		},
 		{
@@ -73,7 +75,7 @@
 				"constant.other.symbol",
 			],
 			"settings": {
-				"foreground": "#008080"
+				"foreground": "#666666"
 			}
 		},
 		{
