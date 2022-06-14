@@ -113,7 +113,8 @@
 			"name": "Markup: Header",
 			"scope": [
 				"punctuation.definition.heading",
-				"markup.heading"
+				"markup.heading",
+				"entity.name.type.instance.metadata"
 			],
 			"settings": {
 				"fontStyle": "bold"
