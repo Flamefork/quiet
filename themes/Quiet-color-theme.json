@@ -29,6 +29,8 @@
 		"sideBarSectionHeader.border": "#f0f0f0",
 		"statusBar.background": "#f0f0f0",
 		"statusBar.foreground": "#666666",
+		"statusBarItem.remoteBackground": "#f0f0f0",
+		"statusBarItem.remoteForeground": "#666666",
         "editor.findMatchBackground": "#bfdbfe",
         "editor.findMatchHighlightBackground": "#bfdbfe",
         "editorOverviewRuler.findMatchForeground": "#bfdbfe",
