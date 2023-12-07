@@ -43,7 +43,8 @@
 			"name": "Comments",
 			"scope": [
 				"comment",
-				"punctuation.definition.comment"
+				"punctuation.definition.comment",
+				"string.quoted.docstring.multi.python"
 			],
 			"settings": {
 				"foreground": "#b0b0b0"
@@ -108,7 +109,7 @@
 				"markup.fenced_code"
 			],
 			"settings": {
-				"foreground": "#b0b0b0"
+				"foreground": "#666666"
 			}
 		},
 		{
