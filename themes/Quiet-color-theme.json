@@ -6,6 +6,8 @@
     "activityBar.foreground": "#0052b5",
     "activityBarBadge.background": "#0052b5",
     "editor.background": "#ffffff",
+    "editor.findMatchBackground": "#bfdbfe",
+    "editor.findMatchHighlightBackground": "#bfdbfe",
     "editor.foreground": "#111111",
     "editor.lineHighlightBackground": "#f0f0f0",
     "editor.selectionBackground": "#bfdbfe",
@@ -17,12 +19,16 @@
     "editorIndentGuide.background1": "#f0f0f0",
     "editorLineNumber.activeForeground": "#b0b0b0",
     "editorLineNumber.foreground": "#e0e0e0",
+    "editorOverviewRuler.findMatchForeground": "#bfdbfe",
     "editorRuler.foreground": "#f0f0f0",
     "editorSuggestWidget.background": "#f0f0f0",
     "editorSuggestWidget.border": "#f0f0f0",
     "focusBorder": "#bfdbfe",
     "gitDecoration.modifiedResourceForeground": "#0052b5",
+    "list.activeSelectionBackground": "#bfdbfe",
+    "list.activeSelectionForeground": "#111111",
     "panel.border": "#f0f0f0",
+    "peekView.border": "#f0f0f0",
     "sideBar.background": "#ffffff",
     "sideBar.border": "#f0f0f0",
     "sideBarSectionHeader.background": "#ffffff",
@@ -31,13 +37,9 @@
     "statusBar.foreground": "#666666",
     "statusBarItem.remoteBackground": "#f0f0f0",
     "statusBarItem.remoteForeground": "#666666",
-    "editor.findMatchBackground": "#bfdbfe",
-    "editor.findMatchHighlightBackground": "#bfdbfe",
-    "editorOverviewRuler.findMatchForeground": "#bfdbfe",
-    "peekView.border": "#f0f0f0",
-    "list.activeSelectionForeground": "#111111",
-    "list.activeSelectionBackground": "#bfdbfe"
+
   },
+  "semanticHighlighting": true,
   "tokenColors": [
     {
       "name": "Comments",
@@ -66,14 +68,14 @@
         "support.type.property-name"
       ],
       "settings": {
-        "foreground": "#111111"
+        "foreground": "#0052b5"
       }
     },
     {
       "name": "Strings",
       "scope": ["string", "constant.other.symbol"],
       "settings": {
-        "foreground": "#666666"
+        "foreground": "#008080"
       }
     },
     {
