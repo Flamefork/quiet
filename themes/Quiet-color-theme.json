@@ -36,8 +36,7 @@
     "statusBar.background": "#f0f0f0",
     "statusBar.foreground": "#666666",
     "statusBarItem.remoteBackground": "#f0f0f0",
-    "statusBarItem.remoteForeground": "#666666",
-
+    "statusBarItem.remoteForeground": "#666666"
   },
   "semanticHighlighting": true,
   "tokenColors": [
@@ -115,6 +114,24 @@
       ],
       "settings": {
         "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "SQL: Text",
+      "scope": ["meta.embedded.block.sql"],
+      "settings": {
+        "foreground": "#666666"
+      }
+    },
+    {
+      "name": "SQL: Keywords",
+      "scope": [
+        "keyword.other.sql",
+        "keyword.other.DML.sql",
+        "keyword.other.alias.sql"
+      ],
+      "settings": {
+        "foreground": "#111111"
       }
     }
   ]
