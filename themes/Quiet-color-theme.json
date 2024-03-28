@@ -7,7 +7,7 @@
     "activityBarBadge.background": "#0052b5",
     "editor.background": "#ffffff",
     "editor.findMatchBackground": "#bfdbfe",
-    "editor.findMatchHighlightBackground": "#bfdbfe",
+    "editor.findMatchHighlightBackground": "#bfdbfe66",
     "editor.foreground": "#111111",
     "editor.lineHighlightBackground": "#f0f0f0",
     "editor.selectionBackground": "#bfdbfe",
@@ -19,7 +19,7 @@
     "editorIndentGuide.background1": "#f0f0f0",
     "editorLineNumber.activeForeground": "#b0b0b0",
     "editorLineNumber.foreground": "#e0e0e0",
-    "editorOverviewRuler.findMatchForeground": "#bfdbfe",
+    "editorOverviewRuler.findMatchForeground": "#bfdbfe66",
     "editorRuler.foreground": "#f0f0f0",
     "editorSuggestWidget.background": "#f0f0f0",
     "editorSuggestWidget.border": "#f0f0f0",
@@ -36,7 +36,9 @@
     "statusBar.background": "#f0f0f0",
     "statusBar.foreground": "#666666",
     "statusBarItem.remoteBackground": "#f0f0f0",
-    "statusBarItem.remoteForeground": "#666666"
+    "statusBarItem.remoteForeground": "#666666",
+		"diffEditor.insertedLineBackground": "#9bb95511",
+		"diffEditor.removedLineBackground": "#ff000011",
   },
   "semanticHighlighting": true,
   "tokenColors": [
@@ -118,7 +120,7 @@
     },
     {
       "name": "SQL: Text",
-      "scope": ["meta.embedded.block.sql"],
+      "scope": ["meta.embedded.block.sql", "meta.embedded.sql"],
       "settings": {
         "foreground": "#666666"
       }
