@@ -41,6 +41,22 @@
     "diffEditor.removedLineBackground": "#ff000011"
   },
   "semanticHighlighting": true,
+  "semanticTokenColors": {
+    "*.typeHint": "#666666",
+    "*.decorator": "#666666",
+    "type:go": "#666666",
+    "namespace:go": "#666666",
+    "function.declaration": {"fontStyle": "bold"},
+    "function.declaration.local": {"fontStyle": ""},
+    "variable.declaration": {"fontStyle": "bold"},
+    "variable.declaration.local": {"fontStyle": ""},
+    "variable.declaration:python": {"fontStyle": ""},
+    "class.declaration": {"fontStyle": "bold"},
+    "interface.declaration": {"fontStyle": "bold"},
+    "type.definition:go": {"fontStyle": "bold"},
+    "type.declaration": {"fontStyle": "bold"},
+    "method.definition:go": {"fontStyle": "bold"},
+  },
   "tokenColors": [
     {
       "name": "Comments",
@@ -65,18 +81,27 @@
       "scope": [
         "variable",
         "support.variable",
-        "entity.name.tag",
-        "support.type.property-name"
+        "support.type.property-name",
+        "meta.definition.variable",
       ],
       "settings": {
         "foreground": "#0052b5"
       }
     },
     {
+      "name": "Types",
+      "scope": [
+        "meta.type.annotation",
+      ],
+      "settings": {
+        "foreground": "#666666"
+      }
+    },
+    {
       "name": "Strings",
       "scope": ["string", "constant.other.symbol"],
       "settings": {
-        "foreground": "#008080"
+        "foreground": "#307070"
       }
     },
     {
@@ -126,18 +151,7 @@
         "meta.embedded.inline.sql"
       ],
       "settings": {
-        "foreground": "#666666"
-      }
-    },
-    {
-      "name": "SQL: Keywords",
-      "scope": [
-        "keyword.other.sql",
-        "keyword.other.DML.sql",
-        "keyword.other.alias.sql"
-      ],
-      "settings": {
-        "foreground": "#111111"
+        "foreground": "#333333"
       }
     },
     {
