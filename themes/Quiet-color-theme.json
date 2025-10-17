@@ -43,9 +43,9 @@
   "semanticHighlighting": true,
   "semanticTokenColors": {
     "*.typeHint": "#666666",
-    "*.decorator": "#666666",
     "type:go": "#666666",
     "namespace:go": "#666666",
+    "method.declaration": {"fontStyle": "bold"},
     "function.declaration": {"fontStyle": "bold"},
     "function.declaration.local": {"fontStyle": ""},
     "variable.declaration": {"fontStyle": "bold"},
