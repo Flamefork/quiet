@@ -92,6 +92,7 @@
       "name": "Types",
       "scope": [
         "meta.type.annotation",
+        "keyword.operator.bitwise.python",
       ],
       "settings": {
         "foreground": "#666666"
